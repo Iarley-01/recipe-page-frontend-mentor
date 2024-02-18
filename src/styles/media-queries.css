@@ -1,0 +1,13 @@
+@media screen and (min-width: 481px) {
+  .main-container {
+    max-width: 450px;
+    border-radius: 20px;
+    padding-top: 14px;
+  }
+  
+  .main-container header .recipe-photo {
+    width: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+}

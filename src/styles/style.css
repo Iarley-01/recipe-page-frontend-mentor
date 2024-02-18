@@ -1,0 +1,203 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--eggshell);
+}
+
+h1, h2 {
+  font-family: var(--font-young-serif);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--nutmeg);
+}
+
+.main-container {
+  background-color: var(--white);
+}
+
+.main-container header {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container header .recipe-photo {
+  width: 100%;
+}
+
+.main-container header .recipe-photo img {
+  width: 100%;
+}
+
+.main-container .recipe-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container .recipe-main .recipe-title {
+  padding: 12px;
+}
+
+.main-container .recipe-main .recipe-description {
+  padding: 12px;
+}
+
+.main-container .recipe-main .recipe-description p {
+  font-family: var(--font-outfit);
+  color: var(--wengeBrown);
+}
+
+.main-container .recipe-main .recipe-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container .recipe-main .recipe-time .recipe-time-description {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--roseWhite);
+  padding: 20px;
+  border-radius: 20px;
+  gap: 12px;
+  width: 95%;
+}
+
+.main-container .recipe-main .recipe-time .recipe-time-description strong {
+  font-family: var(--font-outfit);
+  color: var(--darkRaspberry);
+}
+
+.main-container .recipe-main .recipe-time .recipe-time-description ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0 0 0 20px;
+}
+
+.main-container .recipe-main .recipe-time .recipe-time-description ul li {
+  padding: 0 0 0 20px;
+  font-family: var(--font-outfit);
+}
+
+.main-container .recipe-main .recipe-time .recipe-time-description ul li strong {
+  color: var(--wengeBrown);
+}
+
+.main-container .recipe-main .recipe-time .recipe-time-description ul li:before {
+  content: "\2022";
+  display: inline-block;
+  width: 1em;
+  color: var(--darkRaspberry);
+}
+
+.main-container .recipe-main .recipe-ingredients {
+  padding: 12px;
+  padding-top: 16px;
+}
+
+.main-container .recipe-main .recipe-ingredients ul {
+  padding: 12px 0 12px 20px;
+  list-style: none;
+} 
+
+.main-container .recipe-main .recipe-ingredients ul li {
+  padding: 0 0 16px 20px;
+  font-family: var(--font-outfit);
+}
+
+.main-container .recipe-main .recipe-ingredients ul li:before{
+  content: "\2022";
+  display: inline-block;
+  width: 1em;
+  color: var(--darkRaspberry);
+}
+
+.main-container .recipe-instructions {
+  padding: 12px;
+}
+
+.main-container .recipe-instructions .recipe-instructions-title {
+  padding-bottom: 16px;
+}
+
+.main-container .recipe-instructions .recipe-instructions-list {
+  padding: 0 0 16px 20px;
+}
+
+.main-container .recipe-instructions .recipe-instructions-list li {
+  padding: 0 0 12px 20px;
+  font-family: var(--font-outfit);
+  color: var(--nutmeg);
+  font-weight: 700;
+}
+
+.main-container .recipe-instructions .recipe-instructions-list li span {
+  color: var(--wengeBrown);
+  font-weight: 400
+}
+
+.main-container .recipe-nutrition {
+  padding: 12px;
+}
+
+.main-container .recipe-nutrition .recipe-nutrition-title {
+  padding-bottom: 12px;
+}
+
+.main-container .recipe-nutrition .recipe-nutrition-description {
+  padding-bottom: 12px;
+}
+
+.main-container .recipe-nutrition .recipe-nutrition-description p {
+  font-family: var(--font-outfit);
+  color: var(--wengeBrown);
+}
+
+.main-container .recipe-nutrition .recipe-nutrition-values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+td {
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-outfit);
+  border-bottom: 1px solid var(--lightGrey);
+}
+
+td:nth-child(even) {
+  color: var(--nutmeg);
+  font-weight: 900;
+}
+
+tr:last-child td {
+  border: none;
+}
+
+.attribution { 
+  font-family: var(--font-outfit);
+  font-size: 11px; 
+  text-align: center;
+  padding: 12px;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
